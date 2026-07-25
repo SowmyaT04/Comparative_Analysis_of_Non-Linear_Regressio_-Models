@@ -144,16 +144,11 @@ The polynomial model produced comparatively more stable parameter estimates than
 ## 📂 Repository Structure
 
 ```
-├── data/
-│   └── dataset.csv
+├── data
 │
-├── notebooks/
-│   └── NonLinearRegression.ipynb
 │
-├── figures/
-│   ├── fitted_curves.png
-│   ├── residual_plots.png
-│   └── diagnostics.png
+├── code
+│   
 │
 ├── report/
 │   └── Project_Report.pdf
