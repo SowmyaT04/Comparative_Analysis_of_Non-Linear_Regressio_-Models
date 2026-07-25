@@ -327,8 +327,7 @@
     }
    ],
    "source": [
-    "import matplotlib.pyplot as plt\n",
-    "import numpy as np\n",
+    
     "\n",
     "# Initialize residuals\n",
     "residuals1 = residuals2 = residuals3 = None\n",
