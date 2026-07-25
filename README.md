@@ -5,7 +5,7 @@ Indian Institute of Technology Kanpur
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Objectives](#-objectives)
@@ -25,7 +25,7 @@ Indian Institute of Technology Kanpur
 
 ---
 
-## 📊 Project Overview
+##  Project Overview
 
 This project investigates the performance of multiple non-linear regression models by fitting them to a dataset containing **75 observations**. Three different functional forms were estimated using the **Least Squares Estimation (LSE)** approach and compared using statistical goodness-of-fit metrics.
 
@@ -33,7 +33,7 @@ The objective was to determine which model best explains the observed data while
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Estimate model parameters using Least Squares Estimation
 - Compare three competing regression models
@@ -45,7 +45,7 @@ The objective was to determine which model best explains the observed data while
 
 ---
 
-## 📚 Regression Models
+##  Regression Models
 
 ### Model 1 – Double Exponential Model
 
@@ -67,7 +67,7 @@ $$
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 The project follows the complete non-linear regression workflow:
 
@@ -86,7 +86,7 @@ The project follows the complete non-linear regression workflow:
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model | RSS | R² | AIC | BIC |
 |-------|------:|------:|------:|------:|
@@ -96,7 +96,7 @@ The project follows the complete non-linear regression workflow:
 
 ---
 
-## 🏆 Best Performing Model
+##  Best Performing Model
 
 Among the three models, the **Fourth-Degree Polynomial Model** provided the strongest overall fit, despite the Rational model recording a marginally lower AIC.
 
@@ -109,7 +109,7 @@ Key observations:
 
 ---
 
-## 📈 Residual Variance Estimates
+## Residual Variance Estimates
 
 | Model | Estimated σ² |
 |--------|-------------:|
@@ -119,7 +119,7 @@ Key observations:
 
 ---
 
-## 📉 Residual Normality
+##  Residual Normality
 
 Residual normality was evaluated using the **Shapiro-Wilk Test**.
 
@@ -133,7 +133,7 @@ Since all p-values exceeded 0.05, the residuals for each model were consistent w
 
 ---
 
-## 📊 Confidence Intervals
+##  Confidence Intervals
 
 Approximate 95% confidence intervals for all model parameters were computed using the **Fisher Information Matrix**.
 
@@ -141,24 +141,7 @@ The polynomial model produced comparatively more stable parameter estimates than
 
 ---
 
-## 📂 Repository Structure
-
-```
-├── data
-│
-│
-├── code
-│   
-│
-├── report/
-│   └── Project_Report.pdf
-│
-└── README.md
-```
-
----
-
-## 🛠️ Tools & Libraries
+##  Tools & Libraries
 
 - Python
 - NumPy
@@ -169,7 +152,7 @@ The polynomial model produced comparatively more stable parameter estimates than
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 The project includes:
 
@@ -180,7 +163,7 @@ The project includes:
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 - Successfully estimated parameters for three competing regression models
 - Compared models using multiple statistical performance metrics
@@ -188,18 +171,6 @@ The project includes:
 - Computed confidence intervals using the Fisher Information Matrix
 - Verified regression assumptions through residual diagnostics
 - Identified the fourth-degree polynomial as the most suitable model for the dataset
-
----
-
-## 🚀 Future Improvements
-
-Possible extensions include:
-
-- Cross-validation for model selection
-- Regularized polynomial regression
-- Robust regression techniques
-- Bayesian parameter estimation
-- Information-theoretic model averaging
 
 ---
 
