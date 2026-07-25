@@ -71,7 +71,7 @@ $$
 
 The project follows the complete non-linear regression workflow:
 
-1. Fit all three candidate models
+1. Fit all three models
 2. Estimate unknown parameters using Least Squares Estimation
 3. Compare model performance using:
    - Residual Sum of Squares (RSS)
@@ -98,7 +98,7 @@ The project follows the complete non-linear regression workflow:
 
 ## 🏆 Best Performing Model
 
-Among the three candidate models, the **Fourth-Degree Polynomial Model** provided the strongest overall fit, despite the Rational model recording a marginally lower AIC.
+Among the three models, the **Fourth-Degree Polynomial Model** provided the strongest overall fit, despite the Rational model recording a marginally lower AIC.
 
 Key observations:
 
