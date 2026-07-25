@@ -1,6 +1,6 @@
-# 📈 Non-Linear Regression Analysis and Model Comparison
+# Non-Linear Regression Analysis and Model Comparison
 
-**Course Project – MTH686: Non-Linear Regression Analysis**
+**Course Project – MTH686: Non-Linear Regression**
 Indian Institute of Technology Kanpur
 
 ---
